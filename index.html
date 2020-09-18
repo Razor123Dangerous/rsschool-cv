@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Roboto, sans-serif;
+            color: brown;
+            font-size: 14px;
+            background-color: goldenrod;
+            line-height: 25px;
+        }
+        section{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(207, 181, 109);
+            border: brown solid 2px;
+            padding: 10px;
+            margin-bottom: 3px;
+            list-style-position: inside;
+            border-radius: 30px;
+        }
+        img{
+            height: 200px;
+            width: 350px;
+            border: brown solid 6px;
+            border-radius: 30px;
+        }
+        header{
+            background-color:  rgb(207, 181, 109);
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+            border: brown solid 2px;
+            margin-bottom: 3px;
+            border-radius: 30px;
+        }
+        h1{
+            margin-right: 30px;
+            font-style: italic;
+            font-variant: small-caps;
+            text-decoration: underline;
+            letter-spacing: 3px;
+        }
+        h3{
+            font-variant: small-caps;
+        }
+        a{
+            text-decoration: none;
+            color:brown !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="1.jpg" alt="Profile Photo" title = "Roman">
+        <h1>
+            <a href="https://Razor123Dangerous.github.io/rsschool-cv/cv">Roman Petrov</a>    
+        </h1>
+    </header>
+    <section>
+        <h3>Contacts</h3>
+        <p >MyEmailAddress: romshik1998@gmail.com</p>
+    </section>
+    <section>
+        <h3>Brief information about yourself</h3>
+        <ul>
+            <li>I strive to become an experienced developer</li>
+            <li>I am actively engaged in self-development</li>
+            <li>Code as the meaning of life</li>
+            <li>I have an excellent memory, I accept any criticism</li>
+        </ul>
+        <blockquote style = "font-style: italic; ">There is no limit to perfection.</blockquote>
+    </section>
+    <section>
+        <h3>Skills</h3>
+        <p>Basic knowledge of C#, C++, HTML, CSS, Python, Javascript</p>
+    </section>
+    <section>
+        <h3>Code example</h3>
+        <code>
+            function isPalindrome(line) {
+            return (String(line) == String(line).split('').reverse().join(''))
+          }
+        </code>
+    </section>   
+    <section>
+        <h3>Education</h3>
+        <ol>
+            <li>MSCE (Minsk State College of Electronics) - 2017-2021 (expected)</li>
+            <li>Streamline School (B2) - 2015-2020</li>
+        </ol>
+    </section>
+</body>
+</html>

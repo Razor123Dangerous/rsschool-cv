@@ -25,10 +25,11 @@ Skills
 Code example
 ------------
 
+```JavaScript
 function isPalindrome(line) {
   return (String(line) == String(line).split('').reverse().join(''))
 }
-
+```
 
 Education
 ---------
